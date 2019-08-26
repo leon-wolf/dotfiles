@@ -53,5 +53,14 @@ function! s:denite_my_settings() abort
   \ denite#do_map('open_filter_buffer')
 endfunction
 
+"=== END DENITE === "
+
 "use ,cd to set workingdir to current dir
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>
+
+nnoremap <leader><Space> <Esc>/<++><Enter>"_c4l
+"=== HTML KEYBINDINGS ==="
+autocmd FileType html inoremap ;p <p></p><Enter><++><Esc>ki
+
+"=== GO KEYBINDINGS ==="
+autocmd FileType go inoremap gostruct type  struct {<Enter><++><Enter>}<Esc>kkf<Space>a
