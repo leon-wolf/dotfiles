@@ -63,4 +63,6 @@ nnoremap <leader><Space> <Esc>/<++><Enter>"_c4l
 autocmd FileType html inoremap ;p <p></p><Enter><++><Esc>ki
 
 "=== GO KEYBINDINGS ==="
-autocmd FileType go inoremap gostruct type  struct {<Enter><++><Enter>}<Esc>kkf<Space>a
+autocmd FileType go inoremap ;struct type  struct {<Enter><++><Enter>}<Esc>kkf<Space>a
+autocmd FileType go inoremap ;err if err != nil {<Enter>return err<Enter>}<Enter><Esc>
+autocmd FileType go inoremap ;func func  (){<Enter><++><Enter>}<Esc>kkf<Space>a

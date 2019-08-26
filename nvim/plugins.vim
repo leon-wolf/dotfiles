@@ -37,4 +37,6 @@ Plug 'Shougo/denite.nvim'
 Plug 'vim-scripts/vim-auto-save'
 "Nerdtree
 Plug 'scrooloose/nerdtree'
+"lightline
+Plug 'itchyny/lightline.vim'
 call plug#end()
