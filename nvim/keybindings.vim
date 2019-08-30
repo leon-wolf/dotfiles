@@ -54,6 +54,9 @@ function! s:denite_my_settings() abort
 endfunction
 
 "=== END DENITE === "
+"use ,js to format json
+nnoremap <leader>js :%!python -m json.tool<cr>
+
 
 "use ,cd to set workingdir to current dir
 nnoremap <leader>cd :cd %:p:h<CR>:pwd<CR>

@@ -1,5 +1,5 @@
 " ============================================================================ "
-" ===                               PLUGINS                                === "
+" ===                               CYHTVAF                                === "
 " ============================================================================ "
 
 " check whether vim-plug is installed and install it if necessary
@@ -39,4 +39,8 @@ Plug 'vim-scripts/vim-auto-save'
 Plug 'scrooloose/nerdtree'
 "lightline
 Plug 'itchyny/lightline.vim'
+"json formatter
+Plug 'XadillaX/json-formatter.vim'
+"GIT Plugin
+Plug 'tpope/vim-fugitive'
 call plug#end()
