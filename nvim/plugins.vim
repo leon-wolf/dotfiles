@@ -41,6 +41,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'itchyny/lightline.vim'
 "json formatter
 Plug 'XadillaX/json-formatter.vim'
-"GIT Plugin
-Plug 'tpope/vim-fugitive'
+"Git Nerdtree
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
