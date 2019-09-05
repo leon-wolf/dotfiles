@@ -43,4 +43,10 @@ Plug 'itchyny/lightline.vim'
 Plug 'XadillaX/json-formatter.vim'
 "Git Nerdtree
 Plug 'Xuyuanp/nerdtree-git-plugin'
+"MatchTag
+Plug 'gregsexton/MatchTag'
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
 call plug#end()
