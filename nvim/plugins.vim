@@ -28,7 +28,7 @@ Plug 'posva/vim-vue'
 "vim-Javascript
 Plug 'pangloss/vim-javascript'
 "Coc-Autocompletion
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'tag': '*', 'branch': 'release'}
 "Auto Mkdir
 Plug 'benizi/vim-automkdir'
 "Denite
@@ -49,4 +49,12 @@ Plug 'gregsexton/MatchTag'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html'] }
+"GitGutter
+Plug 'airblade/vim-gitgutter'
+"Emmet plugin
+Plug 'mattn/emmet-vim'
+"GitBranch for Lightline
+Plug 'itchyny/vim-gitbranch'
+"FuGitive
+Plug 'tpope/vim-fugitive'
 call plug#end()
