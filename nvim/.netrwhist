@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/lwolf/Projekte/itsm/report-manager/frontend/src/components'
+let g:netrw_dirhist_2='/home/lwolf/Projekte/itsm/report-manager/frontend/src/components/Config'
+let g:netrw_dirhist_3='/home/lwolf/.config/nvim'
+let g:netrw_dirhist_4='/home/lwolf/.config'
+let g:netrw_dirhist_5='scp://root@192.168.18.97/opt/report-manager/'
+let g:netrw_dirhist_6='scp://root@10.10.10.230/home/'
